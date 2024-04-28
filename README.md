@@ -1,81 +1,62 @@
 Cryptography Toolkit
-The Cryptography Toolkit is a Python project that implements various cryptographic techniques, including hashing algorithms, encryption and decryption functionalities, collision resistance analysis, and benchmarking tools.
 
-
-Table of Contents
-Introduction
-Features
-Project Structure
-Setup
-Usage
-Documentation
-License
-Support
-Conclusion
-
-
-Introduction
-
-The Cryptography Toolkit is a comprehensive project aimed at providing a wide range of cryptographic functionalities. From hashing techniques like Cuckoo Hashing and Dynamic Perfect Hashing to encryption and decryption algorithms such as AES, DES, and RSA, this toolkit offers a versatile set of tools for secure data handling and protection. Additionally, it includes collision resistance analysis tools and benchmarking utilities for performance evaluation.
-
-
-Features
-
-Hashing Techniques: Implementations of various hashing techniques including Cuckoo Hashing and Dynamic Perfect Hashing.
-Encryption and Decryption: Support for encryption and decryption using popular algorithms like AES, DES, and RSA.
-Collision Resistance Analysis: Tools for analyzing collision resistance of hash functions.
-Benchmarking: Utilities to measure execution time and memory usage for performance evaluation.
-
-
-Project Structure
-
-The project directory structure is organized as follows:
-
-cryptography_toolkit/
-│
-├── README.md
-├── CONTRIBUTORS.md
-├── src/
-│   ├── cuckoo_hashing.py
-│   ├── encryption.py
-│   ├── collision_analysis.py
-│   └── benchmarking.py
-├── tests/
-│   ├── test_cuckoo_hashing.py
-│   ├── test_encryption.py
-│   ├── test_collision_analysis.py
-│   └── test_benchmarking.py
-└── .gitignore
-
+Welcome to the Cryptography Toolkit! This project aims to provide a comprehensive set of tools for cryptographic operations, including hashing techniques, encryption/decryption functionalities, collision resistance analysis, and benchmarking. Whether you're a student learning about cryptography or a developer implementing secure systems, this toolkit is designed to assist you in understanding and applying cryptographic concepts effectively.
 
 Setup
-To set up the Cryptography Toolkit:
-Clone this repository.
-Install dependencies using pip install -r requirements.txt.
-Run the application using python main.py.
+Follow these steps to get started with the Cryptography Toolkit:
+
+1. Clone the Repository:
+
+git clone https://github.com/your_username/cryptography_toolkit.git
+
+
+2. Navigate to the Project Directory:
+
+cd cryptography_toolkit
+
+
+3. Install Dependencies:
+
+pip install -r requirements.txt
+
+4. Run the Application:
+
+python main.py
+
+
+
+
+Components
+
+1. Hashing Techniques
+
+Cuckoo Hashing: Implementation of Cuckoo Hashing technique for efficient key-value storage.
+
+Dynamic Perfect Hashing: Implementation of Dynamic Perfect Hashing for minimal collision resolution.
+
+2. Encryption and Decryption
+
+AES Encryption: Advanced Encryption Standard (AES) implementation for secure encryption and decryption of messages.
+
+3. Collision Resistance Analysis
+
+MD5 Hashing: Calculate MD5 hash values and analyze collision resistance.
+
+SHA-256 Hashing: Calculate SHA-256 hash values and analyze collision resistance.
+
+4. Benchmarking
+
+Execution Time Measurement: Measure the execution time of cryptographic operations.
+
+Memory Usage Measurement: Measure the memory usage of cryptographic operations.
 
 
 Usage
-The project provides various functionalities that can be used in different scenarios:
 
-Cuckoo Hashing: Implements a Cuckoo Hash Table for efficient key-value storage.
-Encryption and Decryption: Supports encryption and decryption using algorithms like AES, DES, and RSA.
-Collision Resistance Analysis: Provides functions to analyze collision rates of different hash functions.
-Benchmarking: Includes tools for measuring execution time and memory usage of functions.
-For detailed usage instructions, refer to the documentation and example scripts provided in each module.
+Cuckoo Hashing: Use cuckoo_hashing.py for Cuckoo Hashing implementation.
 
+Encryption and Decryption: Use encryption.py for encryption and decryption functionalities.
 
-Documentation
-Additional documentation and examples can be found in the individual module files.
+Collision Resistance Analysis: Use collision_analysis.py for collision resistance analysis.
 
-
-License
-This project is licensed under the MIT License.
-
-
-Support
-For support or inquiries, please open an issue in the GitHub repository.
-
-
-Conclusion
-The Cryptography Toolkit aims to provide a robust set of cryptographic tools for developers to ensure data security and integrity in their applications. We welcome contributions and feedback from the community to further enhance and improve the toolkit.
+Benchmarking: Use benchmarking.py for benchmarking performance.
