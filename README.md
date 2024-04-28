@@ -7,12 +7,11 @@ Follow these steps to get started with the Cryptography Toolkit:
 
 1. Clone the Repository:
 
-git clone https://github.com/your_username/cryptography_toolkit.git
-
+git clone https://github.com/SaikiranReddyGangula/Cryptographic_toolkit.git
 
 2. Navigate to the Project Directory:
 
-cd cryptography_toolkit
+cd Cryptographic_toolkit
 
 
 3. Install Dependencies:
