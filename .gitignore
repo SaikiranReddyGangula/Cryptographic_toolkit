@@ -1,0 +1,33 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# IDE specific
+.vscode/
+.idea/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+
+# Ignore compiled Python bytecode and built files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
